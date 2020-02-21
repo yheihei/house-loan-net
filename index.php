@@ -1,19 +1,20 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ja"><!-- InstanceBegin template="/Templates/temp.dwt" codeOutsideHTMLIsLocked="false" -->
+<!DOCTYPE html>
+<html lang="ja">
 
 <head profile="http://gmpg.org/xfn/11">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="content-style-type" content="text/css" />
 <meta http-equiv="content-script-type" content="text/javascript" />
 <meta name="author" content="" />
 <meta name="keyword" content="" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="./js/common.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>住宅ローン金利の知恵｜減税効果と金利動向の2017年度 研究＆比較</title>
 <!-- InstanceEndEditable -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); // mortgageテーマにする?>/wp-content/themes/mortgage/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" media="screen" />
 <!-- InstanceBeginEditable name="meta" -->
 <meta name="description" content="何も考えずに銀行や不動産会社の言うままに住宅ローンを組むと非常に大きな損失が生じます！最も賢く選んで頂くために金利をはじめ、各銀行の住宅ローンについて調査しています。" />
 <!-- InstanceEndEditable -->
@@ -26,14 +27,14 @@
 
 <div id="base">
   <div id="header">
-    <h1><a href="./"><img src="<?php echo get_template_directory_uri(); ?>/wp-content/themes/mortgage/images/logo.png" width="394" height="43" alt="住宅ローン金利の知恵｜減税効果と金利動向の2017年度 研究＆比較" /></a></h1>
+    <h1><a href="./"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="394" height="43" alt="住宅ローン金利の知恵｜減税効果と金利動向の2017年度 研究＆比較" /></a></h1>
   </div>
   <!--/header end-->
 <div id="main">
 <div id="content">
 
 <!-- InstanceBeginEditable name="EditRegion1" -->
-  <h2 class="imgTtl"><img src="./<?php echo get_template_directory_uri(); ?>/wp-content/themes/mortgage/images/top_ttl01.png" width="650" height="78" alt="住宅ローンで一番大事なのは金利です。金利上昇が予測される今、有利な住宅ローンを選ぶには？" /></h2>
+  <h2 class="imgTtl"><img src="<?php echo get_template_directory_uri(); ?>/images/top_ttl01.png" width="650" height="78" alt="住宅ローンで一番大事なのは金利です。金利上昇が予測される今、有利な住宅ローンを選ぶには？" /></h2>
     <div class="box_out">
       <div class="box_in">
         <h2>現在、住宅ローンを取り巻く環境が急速に変化しつつあります。</h2>
@@ -44,7 +45,7 @@
 <!--<p>まずは実際に現在の住宅ローン金利を表にまとめましたので確認下さい。</p>
 <p>※2017年4月適用金利</p>--><!-- TODO -->
           
-          <h3 class="imgTtl"><img src="./<?php echo get_template_directory_uri(); ?>/wp-content/themes/mortgage/images/hikaku_ttl01.png" width="620" height="30" alt="住宅ローン金利を比較" /></h3>
+          <h3 class="imgTtl"><img src="<?php echo get_template_directory_uri(); ?>/images/hikaku_ttl01.png" width="620" height="30" alt="住宅ローン金利を比較" /></h3>
 <!--          <table id="js_compare_table">
 <tr>
 <th rowspan="2">銀行名</th>
@@ -73,85 +74,85 @@
 </tr>
 <tr>
 <td class="bank01"><a href="sbi.html">住信SBI<br />
-      ネット銀行</a><a href="sbi.html"><img src="img/logo_sbi.gif" width="64" height="26" alt="住信ＳＢＩネット銀行" /></a></td>
+      ネット銀行</a><a href="sbi.html"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_sbi.gif" width="64" height="26" alt="住信ＳＢＩネット銀行" /></a></td>
 <!--<td id="js_sbi_hendo"></td>
 <td id="js_sbi_y10"><br /></td>
 <td id="js_sbi_y20"></td>
-<td class="charge"><img src="img/ico_w_circle.png" width="21" height="21" />なし</td>
-<td class="rate"><img src="img/ico_w_circle.png" width="21" height="21" /><span id="js_sbi_rhendo"></span></td>
-<td class="rate"><img src="img/ico_w_circle.png" width="21" height="21" /><span id="js_sbi_ry10"></span><br /></td>
-<td class="rate"><img src="img/ico_w_circle.png" alt="" width="21" height="21" /><span id="js_sbi_ry20"></span></td>
-<td class="btn"><a href="sbi.html"><img src="img/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="sbi.html"><img src="img/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
+<td class="charge"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" width="21" height="21" />なし</td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" width="21" height="21" /><span id="js_sbi_rhendo"></span></td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" width="21" height="21" /><span id="js_sbi_ry10"></span><br /></td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" alt="" width="21" height="21" /><span id="js_sbi_ry20"></span></td>
+<td class="btn"><a href="sbi.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="sbi.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
 </tr>
 
 <tr>
-<td class="bank02"><a href="sony.html">ソニー銀行</a><a href="sony.html"><img src="img/logo_sony.gif" width="64" height="24" alt="ソニー銀行" /></a></td>
+<td class="bank02"><a href="sony.html">ソニー銀行</a><a href="sony.html"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_sony.gif" width="64" height="24" alt="ソニー銀行" /></a></td>
 <td id="js_sony_hendo"></td>
 <td id="js_sony_y10"></td>
 <td id="js_sony_y20"></td>
-<td class="charge"><img src="img/ico_w_circle.png" width="21" height="21" />なし</td>
-<td class="rate"><img src="img/ico_w_circle.png" alt="" width="21" height="21" /><span id="js_sony_rhendo"></span></td>
-<td class="rate"><img src="img/ico_w_circle.png" width="21" height="21" /><span id="js_sony_ry10"></span></td>
-<td class="rate"><img src="img/ico_w_circle.png" alt="" width="21" height="21" /><span id="js_sony_ry20"></span></td>
-<td class="btn"><a href="sony.html"><img src="img/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="sony.html"><img src="img/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
+<td class="charge"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" width="21" height="21" />なし</td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" alt="" width="21" height="21" /><span id="js_sony_rhendo"></span></td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" width="21" height="21" /><span id="js_sony_ry10"></span></td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" alt="" width="21" height="21" /><span id="js_sony_ry20"></span></td>
+<td class="btn"><a href="sony.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="sony.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
 </tr>
 
 <tr>
-<td class="bank02"><a href="aeon.html">イオン銀行</a><a href="aeon.html"><img src="img/logo_aeon.gif" width="64" height="18" alt="イオン銀行" /></a></td>
+<td class="bank02"><a href="aeon.html">イオン銀行</a><a href="aeon.html"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_aeon.gif" width="64" height="18" alt="イオン銀行" /></a></td>
 <td id="js_eon_hendo"></td>
 <!--<td id="js_eon_y10"></td>
 <td>なし</td>
-<td class="charge"><img src="img/ico_w_circle.png" width="21" height="21" />なし</td>
-<td class="rate"><img src="img/ico_w_circle.png" alt="" width="21" height="21" /><span id="js_eon_rhendo"></span></td>
-<td class="rate"><img src="img/ico_w_circle.png" width="21" height="21" /><span id="js_eon_ry10"></span></td>
+<td class="charge"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" width="21" height="21" />なし</td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" alt="" width="21" height="21" /><span id="js_eon_rhendo"></span></td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" width="21" height="21" /><span id="js_eon_ry10"></span></td>
 <td class="rate">－</td>
-<td class="btn"><a href="aeon.html"><img src="img/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="aeon.html"><img src="img/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
+<td class="btn"><a href="aeon.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="aeon.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
 </tr>
 <!--
 <tr>
-<td class="bank02"><a href="sbim.html">SBIモーゲージ<br />（フラット35）</a><a href="sbim.html"><img src="img/logo_sbim.gif" width="64" height="18" alt="SBIモーゲージフラット35" /></a></td>
+<td class="bank02"><a href="sbim.html">SBIモーゲージ<br />（フラット35）</a><a href="sbim.html"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_sbim.gif" width="64" height="18" alt="SBIモーゲージフラット35" /></a></td>
 <td>－</td>
 <td>－</td>
 <td>1.530</td>
-<td class="charge"><img src="img/ico_cross.png" width="21" height="21" />あり<br />
+<td class="charge"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_cross.png" width="21" height="21" />あり<br />
   ※1</td>
 <td class="rate">－</td>
 <td class="rate">－</td>
-<td class="rate"><img src="img/ico_w_circle.png" alt="" width="21" height="21" />1.560</td>
-<td class="btn"><a href="sbim.html"><img src="img/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="sbim.html"><img src="img/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" alt="" width="21" height="21" />1.560</td>
+<td class="btn"><a href="sbim.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="sbim.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
 </tr>
 -->
 <!--
-  <td class="bank02"><a href="resona.html">りそな銀行</a><a href="resona.html"><img src="img/logo_resona.gif" width="64" height="24" alt="りそな銀行" /></a>
+  <td class="bank02"><a href="resona.html">りそな銀行</a><a href="resona.html"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_resona.gif" width="64" height="24" alt="りそな銀行" /></a>
   <p class="notes">2016年10月<br>
     適用金利<br>※2</p></td>
 <td id="js_risona_hendo"></td>
 <td id="js_risona_y10"></td>
 <td id="js_risona_y20"></td>
-<td class="charge"><img src="img/ico_w_circle.png" width="21" height="21" />なし</td>
-<td class="rate"><img src="img/ico_w_circle.png" alt="" width="21" height="21" /><span id="js_risona_rhendo"></span></td>
-<td class="rate"><img src="img/ico_w_circle.png" alt="" width="21" height="21" /><span id="js_risona_ry10"></span></td>
-<td class="rate"><img src="img/ico_circle.png" width="21" height="21" /><span id="js_risona_ry20"></span></td>
-<td class="btn"><a href="resona.html"><img src="img/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="resona.html"><img src="img/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
+<td class="charge"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" width="21" height="21" />なし</td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" alt="" width="21" height="21" /><span id="js_risona_rhendo"></span></td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" alt="" width="21" height="21" /><span id="js_risona_ry10"></span></td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_circle.png" width="21" height="21" /><span id="js_risona_ry20"></span></td>
+<td class="btn"><a href="resona.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="resona.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
 </tr>
 -->
 <!--
 <tr>
 <td class="bank02"><a href="rakuten.html">楽天銀行<br />
-      （フラット35）</a><a href="rakuten.html"><img src="img/logo_rakuten.gif" width="64" height="24" alt="フラット３５／楽天銀行" /></a></td>
+      （フラット35）</a><a href="rakuten.html"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_rakuten.gif" width="64" height="24" alt="フラット３５／楽天銀行" /></a></td>
 <td>－</td>
 <td>－</td>
 <td>1.530</td>
-<td class="charge"><img src="img/ico_cross.png" width="21" height="21" />あり<br />
+<td class="charge"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_cross.png" width="21" height="21" />あり<br />
   ※3</td>
 <td class="rate">－</td>
 <td class="rate">－</td>
-<td class="rate"><img src="img/ico_w_circle.png" alt="" width="21" height="21" />1.970</td>
-<td class="btn"><a href="rakuten.html"><img src="img/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="rakuten.html"><img src="img/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_w_circle.png" alt="" width="21" height="21" />1.970</td>
+<td class="btn"><a href="rakuten.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="rakuten.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
 </tr>
 <tr>
   <td class="bank02"><a href="ufj.html">三菱東京<br />
-    UFJ銀行</a><a href="/ufj.html"><img src="img/logo_ufj.png" width="64" height="24" alt="三菱東京ＵＦＪ銀行" /></a></td>
+    UFJ銀行</a><a href="/ufj.html"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_ufj.png" width="64" height="24" alt="三菱東京ＵＦＪ銀行" /></a></td>
   <td>0.775
     ~<br />
     1.075</td>
@@ -159,15 +160,15 @@
     ~<br />
     2.200</td>
   <td>3.500</td>
-  <td class="charge"><img src="img/ico_cross.png" width="21" height="21" />あり</td>
-  <td class="rate"><img src="img/ico_circle.png" width="21" height="21" />0.975
+  <td class="charge"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_cross.png" width="21" height="21" />あり</td>
+  <td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_circle.png" width="21" height="21" />0.975
     ~<br />
     1.275</td>
-  <td class="rate"><img src="img/ico_circle.png" alt="" width="21" height="21" />2.100<br />
+  <td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_circle.png" alt="" width="21" height="21" />2.100<br />
     ~<br />
     2.400</td>
-  <td class="rate"><img src="img/ico_cross.png" width="21" height="21" />3.700</td>
-  <td class="btn"><a href="ufj.html"><img src="img/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="ufj.html"><img src="img/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
+  <td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_cross.png" width="21" height="21" />3.700</td>
+  <td class="btn"><a href="ufj.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="ufj.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
 </tr>-->
 <!--<tr>
 <td class="bank02"><a href="shinsei.html">新生銀行</a><a href="shinsei.html"><img src="/img/logo_shinsei.gif" width="64" height="18" alt="新生銀行" /></a></td>
@@ -181,15 +182,15 @@
 <td class="btn"><a href="shinsei.html"><img src="/img/btn_detail.png" width="40" height="30" alt="詳細" /></a></td
 </tr>
 <tr>
-<td class="bank02"><a href="mizuho.html">みずほ銀行</a><a href="/ufj.html"><img src="img/logo_mizuho.gif" width="64" height="24" alt="みずほ銀行" /></a></td>
+<td class="bank02"><a href="mizuho.html">みずほ銀行</a><a href="/ufj.html"><img src="<?php echo get_template_directory_uri(); ?>/images/logo_mizuho.gif" width="64" height="24" alt="みずほ銀行" /></a></td>
 <td>1.075</td>
 <td>1.500</td>
 <td>1.880</td>
-<td class="charge"><img src="img/ico_cross.png" width="21" height="21" />あり</td>
-<td class="rate"><img src="img/ico_circle.png" width="21" height="21" />1.275</td>
-<td class="rate"><img src="img/ico_circle.png" alt="" width="21" height="21" />1.700</td>
-<td class="rate"><img src="img/ico_cross.png" width="21" height="21" />2.080</td>
-<td class="btn"><a href="ufj.html"><img src="img/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="ufj.html"><img src="img/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
+<td class="charge"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_cross.png" width="21" height="21" />あり</td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_circle.png" width="21" height="21" />1.275</td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_circle.png" alt="" width="21" height="21" />1.700</td>
+<td class="rate"><img src="<?php echo get_template_directory_uri(); ?>/images/ico_cross.png" width="21" height="21" />2.080</td>
+<td class="btn"><a href="ufj.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_detail.png" width="40" height="30" alt="詳細" /></a><a href="ufj.html"><img src="<?php echo get_template_directory_uri(); ?>/images/btn_judging.png" alt="仮審査" width="40" height="30" /></a></td>
 </tr>-->
 
 </table>
@@ -289,7 +290,7 @@
 </tr>
 </table><br />
 
-<img src="img/zu_shinki.jpg" width="620" height="289" />
+<img src="<?php echo get_template_directory_uri(); ?>/images/zu_shinki.jpg" width="620" height="289" />
 <p>&nbsp;</p>
 <p>こうして見てみますと、過去１０年に限っただけでも、<strong><em>かなり金利が上下している</em></strong>のがお分かりいただけるかと思います。</p>
 <p>しかも、年によっては<strong>１年間で１％近くも変動するなど、上下の幅も大きくなる場合がある</strong>のが、お分かりいただけたかと思います。 </p>
@@ -388,7 +389,7 @@
 </tr>
 </table>
 <br />
-<img src="img/zu_hendou.jpg" width="620" height="289" />
+<img src="<?php echo get_template_directory_uri(); ?>/images/zu_hendou.jpg" width="620" height="289" />
 <p>&nbsp;</p>
 <p>こちらも、<em>意外と金利が上下しているケースが多い</em>ことがお分かりいただけるかと思います。 </p>
 <p>また、一見すると、変動金利自体はかなり安定しているようにも見受けられるのですが、実際には、<em>月の途中に突然変動したケースもある</em>ため（2008年11月など）、<strong>超長期固定金利型と同じ基準で判断することはできません。 </strong></p>
@@ -524,10 +525,10 @@
      <div id="side">
      
      <div class="sideBlock">
-     <h3><img src="<?php echo get_template_directory_uri(); ?>/wp-content/themes/mortgage/images/side_ttl01.png" width="250" height="55" alt="住宅ローンを1番有利に、1番賢く借りられる銀行の調査結果" /></h3>
+     <h3><img src="<?php echo get_template_directory_uri(); ?>/images/side_ttl01.png" width="250" height="55" alt="住宅ローンを1番有利に、1番賢く借りられる銀行の調査結果" /></h3>
       <div class="side_box">
         <div class="rankBox01">
-        <h4><img src="<?php echo get_template_directory_uri(); ?>/wp-content/themes/mortgage/images/side_mida01.png" width="220" height="26" alt="新規借り入れ" /></h4>
+        <h4><img src="<?php echo get_template_directory_uri(); ?>/images/side_mida01.png" width="220" height="26" alt="新規借り入れ" /></h4>
         <ul>
                                <li class="rank01" id="js_side1_rank1"><a href="sbi.html">住信SBIネット銀行</a>　<!--30年超固定<span></span>%--></li><!-- TODO -->
                                <li class="rank02" id="js_side1_rank2"><a href="sony.html">ソニー銀行</a>　<!--20年超固定 <span></span>%--></li><!-- TODO -->
@@ -536,7 +537,7 @@
         </div>
         
         <div class="rankBox02">
-        <h4><img src="<?php echo get_template_directory_uri(); ?>/wp-content/themes/mortgage/images/side_mida02.png" width="220" height="26" alt="借り換え" /></h4>
+        <h4><img src="<?php echo get_template_directory_uri(); ?>/images/side_mida02.png" width="220" height="26" alt="借り換え" /></h4>
         <ul>
 			 		           <li class="rank01" id="js_side2_rank1"><a href="sbi.html">住信SBIネット銀行</a>　<!--10年固定<span></span>%--></li> <!-- TODO -->
              		           <li class="rank02" id="js_side2_rank2"><a href="aeon.html">イオン銀行</a>　<!--10年固定 <span></span>%--></li><!-- TODO -->
@@ -548,17 +549,17 @@
       </div>
       </div><!-- /sideBlock -->
       
-      <div class="bnr"> <a href="sougou.html"><img src="img/bnr_rank.png" width="260" height="85" alt="住宅ローン選びを総合的に考える" /></a>
+      <div class="bnr"> <a href="sougou.html"><img src="<?php echo get_template_directory_uri(); ?>/images/bnr_rank.png" width="260" height="85" alt="住宅ローン選びを総合的に考える" /></a>
         <p><a href="sougou.html">＞住宅ローン選びを総合的に考える</a></p>
       </div><!-- /bnr -->
 
 <div class="sideBlock">
    
-    <h3><img src="<?php echo get_template_directory_uri(); ?>/wp-content/themes/mortgage/images/side_ttl04.png" width="250" height="55" alt="住宅ローンに関する情報を整理　詳しく分かりやすく解説します" /></h3>
+    <h3><img src="<?php echo get_template_directory_uri(); ?>/images/side_ttl04.png" width="250" height="55" alt="住宅ローンに関する情報を整理　詳しく分かりやすく解説します" /></h3>
       <div class="side_box">
         <div class="side_inbox">
         <ul class="sidePic">
-						<li><a href="simulation.html"><img src="img/side_img01.jpg" width="40" height="40" alt="" />シミュレーターの使い方と使いやすさを比較｜住宅ローンをシミュレーションしてみよう</a></li>
+						<li><a href="simulation.html"><img src="<?php echo get_template_directory_uri(); ?>/images/side_img01.jpg" width="40" height="40" alt="" />シミュレーターの使い方と使いやすさを比較｜住宅ローンをシミュレーションしてみよう</a></li>
                        
             </ul>
         </div></div>
@@ -567,7 +568,7 @@
 <!-- /sideBlock -->         
       
 <div class="sideBlock">
-<h3><img src="<?php echo get_template_directory_uri(); ?>/wp-content/themes/mortgage/images/side_ttl02.png" width="250" height="35" alt="1番賢い！住宅ローンQ&A" /></h3>
+<h3><img src="<?php echo get_template_directory_uri(); ?>/images/side_ttl02.png" width="250" height="35" alt="1番賢い！住宅ローンQ&A" /></h3>
       <div class="side_box">
         <div class="side_inbox">
         <p class="catName">基礎知識編</p>
@@ -618,7 +619,7 @@
 
     </div>
     
-    <h3><img src="<?php echo get_template_directory_uri(); ?>/wp-content/themes/mortgage/images/side_ttl03.png" width="250" height="35" alt="住宅ローンを扱っている銀行一覧" /></h3>
+    <h3><img src="<?php echo get_template_directory_uri(); ?>/images/side_ttl03.png" width="250" height="35" alt="住宅ローンを扱っている銀行一覧" /></h3>
       <div class="side_box">
         <div class="side_inbox">
         <ul>
@@ -646,4 +647,5 @@
 
 </body>
 
-<!-- InstanceEnd --></html>
+<!-- InstanceEnd -->
+</html>

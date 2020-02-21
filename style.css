@@ -195,6 +195,12 @@ em {
 	width: 650px;
 	padding-bottom: 5px;
 }
+@media screen and (max-width:900px) {
+	#content {
+		float: initial;
+		width: 100%;
+	}
+}
 
 #content #mainlist {
 	margin-top: 1px;
@@ -349,7 +355,7 @@ bankBox
 	padding-left:12px;
 	margin-top: 20px;
 	padding:0 20px;
-	background:url(../../../img/ico_arrow.png) no-repeat 5px center;
+	background:url(images/ico_arrow.png) no-repeat 5px center;
 	font-weight: bold;
 	margin-bottom: 15px;
 	border-bottom-width: 2px;
@@ -787,6 +793,16 @@ answer
 	padding: 5px;
 }
 
+@media screen and (max-width:900px) {
+	#side {	
+		float: initial;
+		width: 100%;
+	}
+	#side .sideBlock{
+		width: 100%;
+	}
+}
+
 #side h3 {
 	color: #FFFFFF;
 	margin-bottom: 1px;
@@ -837,6 +853,13 @@ answer
 	margin-right: auto;
 	margin-left: auto;
 }
+
+@media screen and (max-width:900px) {
+	#side .side_box {
+		margin: 0;
+	}
+}
+
 #side .side_box .side_inbox li {
 	line-height:0;
 }
@@ -1282,7 +1305,7 @@ ul.point2 li img{
 	margin-bottom:4px;
 	padding:5px 5px 5px 30px;
 	border-bottom:1px #006837 dotted;
-	background:url(../../../img/ico_arrow.png) no-repeat 15px center;
+	background:url(images/ico_arrow.png) no-repeat 15px center;
 	line-height:1.2;
 }
 #linkBox dd li a{
