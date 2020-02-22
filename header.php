@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<?php language_attributes(); //html要素のlang属性を出力 ?>">
+<html lang="<?php language_attributes(); ?>">
 
 <head profile="http://gmpg.org/xfn/11">
 <meta name="viewport" content="width=device-width, initial-scale=1">
