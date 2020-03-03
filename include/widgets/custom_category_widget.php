@@ -35,6 +35,11 @@ class Custom_Category_Widget extends WP_Widget{
 EOM;
     $term_ids = explode( ',', $category_ids_string );
     foreach( $term_ids as $term_id ) :
+      if( !$term_id ) {
+        // カテゴリーがない場合は一覧表示を終了する
+        echo "<p>カテゴリーIDが設定されていません</p>";
+        break;
+      }
       $custom_posts = get_posts_by_category_id( $term_id );
       echo "<p class='catName'>". get_cat_name( $term_id ) . "</p>";
       echo "<ul>";
