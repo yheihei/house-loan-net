@@ -1001,6 +1001,28 @@ answer
 	margin:0 10px 5px 0;
 }
 
+.widget-title {
+	background: linear-gradient(#2B653C, #0F2D1B);
+	padding: 4px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.mortgage-icon:before {
+  content: '';
+  display: inline-block;
+	background-repeat: no-repeat;
+  background-size: contain;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+.mortgage-icon--qa:before {
+  width: 24px;
+  height: 24px;
+	background-image: url(images/icon-qa.png);
+}
+
 
 /*
 フッター
