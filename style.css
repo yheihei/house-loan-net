@@ -309,12 +309,12 @@ bankBox
 -------------------------------------------------------------------*/
 
 .bankBox{
-	background:url(../../../img/rank_bg.png) repeat-y left top;	
+	background:url(images/rank_bg.png) repeat-y left top;	
 	margin-bottom:15px;
 	position:relative;
 }
 .bankBoxInner{
-	background:url(../../../img/rank_btm.png) no-repeat left bottom;
+	background:url(images/rank_btm.png) no-repeat left bottom;
 	padding-bottom:10px;
 	padding:0 15px 15px;
 }
@@ -328,7 +328,7 @@ bankBox
 	font-weight:bold !important;
 	margin-bottom:0 !important;
 	border:none !important;
-	background: url(../../../img/rank_ttl_bg.png) no-repeat center top !important;
+	background: url(images/rank_ttl_bg.png) no-repeat center top !important;
 	color:#FFF;
 }
 #content h2.bankTtl a{
@@ -761,7 +761,36 @@ table.bankTb td strong{
 	color:#ED1C24;
 	margin-bottom:5px;
 }
-	
+
+.post-title {
+	padding: 8px;
+	background:linear-gradient(#FFFFFF, #EBEBEB);
+	/* background: linear-gradient(#FFFFFF, #EFEFEF); */
+	position: relative;
+	border: #EFEFEF solid;
+	border-width: 2px 3px 0 3px;
+	/* border-color: #EFEFEF #EFEFEF #4D4D4D #EFEFEF; */
+	margin-bottom: 13px;
+	line-height: 1.2;
+}
+
+/* ボーダーカラーを上下左右で変えて実現せよ */
+.post-title::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 0px;
+	bottom: -4px;
+	left: -3px;
+	border: #4D4D4D solid;
+	border-width: 5px 3px 0 3px;
+}
+
+.post-title--primary {
+	font-size: 20px;
+	color: #143A37;
+}
+
 
 /*
 answer
@@ -1111,12 +1140,12 @@ bank
 -------------------------------------------------------------------*/
 
 .sogoBox{
-	background:url(../../../img/rank_bg.png) repeat-y left top;	
+	background:url(images/rank_bg.png) repeat-y left top;	
 	margin-bottom:15px;
 	position:relative;
 }
 .sogoBoxInner{
-	background:url(../../../img/rank_btm.png) no-repeat left bottom;
+	background:url(images/rank_btm.png) no-repeat left bottom;
 	padding-bottom:10px;
 	padding:0 14px 14px;
 }
@@ -1130,7 +1159,7 @@ bank
 	font-weight:bold !important;
 	margin-bottom:0 !important;
 	border:none !important;
-	background: url(../../../img/rank_ttl_bg.png) no-repeat left top !important;
+	background: url(images/rank_ttl_bg.png) no-repeat left top !important;
 }
 .sogoBox h3 a{
 	text-decoration:underline;
@@ -1181,7 +1210,7 @@ div.point h4{
 	color:#006837 !important;
 	border-bottom: none !important;
 	padding:0 5px 5px 5px !important;
-	background: url(../../../img/line_dot.png) repeat-x left bottom !important;
+	background: url(images/line_dot.png) repeat-x left bottom !important;
 	margin:0 0 10px !important;
 	line-height:1.2 !important;
 }
@@ -1223,13 +1252,13 @@ ul.point2 li img{
 
 
 .hyoukaBox {
-	background:url(../../../img/hyouka_bg.png) repeat-y left top;	
+	background:url(images/hyouka_bg.png) repeat-y left top;	
 	margin-bottom:10px;
 	margin-top:10px;
 	position:relative;
 }
 .hyoukaBoxInner{
-	background:url(../../../img/hyouka_btm.png) no-repeat left bottom;
+	background:url(images/hyouka_btm.png) no-repeat left bottom;
 	padding:8px 10px;
 	
 }
@@ -1312,13 +1341,13 @@ ul.point2 li img{
 /* 関連リンク
 -------------------------------------------*/
 #linkBox {
-	background: url(../../../img/qa_btm.png) no-repeat left bottom;
+	background: url(images/qa_btm.png) no-repeat left bottom;
 	padding-bottom:5px;
 	margin:20px 0;
 }
 
 #linkBox dd{
-	background:url(../../../img/qa_bg.png) repeat-y;
+	background:url(images/qa_bg.png) repeat-y;
 	padding:10px;
 }
 
