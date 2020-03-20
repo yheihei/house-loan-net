@@ -277,7 +277,7 @@ em {
 #content .box_in {
 	background-color: #FFFFFF;
 	border: 1px solid #B3B3B3;
-	padding: 10px;
+	padding: 10px 15px;
 }
 
 #content h2 {
@@ -457,7 +457,7 @@ bankBox
 	margin-top: 0px;
 	margin-right: 5px;
 	margin-bottom: 20px;
-	margin-left: 5px;
+	/* margin-left: 5px; */
 	padding:0 5px;
 }
 
@@ -762,6 +762,10 @@ table.bankTb td strong{
 	margin-bottom:5px;
 }
 
+#content > * {
+	margin-bottom: 20px;
+}
+
 .post-title {
 	padding: 8px;
 	background:linear-gradient(#FFFFFF, #EBEBEB);
@@ -774,7 +778,6 @@ table.bankTb td strong{
 	line-height: 1.2;
 }
 
-/* ボーダーカラーを上下左右で変えて実現せよ */
 .post-title::after {
 	position: absolute;
 	content: "";
@@ -789,6 +792,29 @@ table.bankTb td strong{
 .post-title--primary {
 	font-size: 20px;
 	color: #143A37;
+}
+
+.more-link {
+	display: block;
+}
+
+.more-link--primary {
+	text-decoration: none;
+}
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.page-numbers {
+	padding: 10px;
+	margin-bottom: 5px;
+	display: inline-block;
 }
 
 
