@@ -16,10 +16,7 @@
     </section>
 
   <?php endwhile; // 繰り返し終了 ?>
-  <section class="pagination">
-    <div class="pagination__item"><?php previous_posts_link('&laquo;　前へ' ); ?></div>
-    <div class="pagination__item"><?php next_posts_link('次へ　&raquo;' );  ?></div>
-  </section>
+  <?php the_posts_pagination(); ?>
 <?php else : // 条件分岐：投稿が無い場合は ?>
 
   <h2>投稿が見つかりません。</h2>

@@ -802,6 +802,21 @@ table.bankTb td strong{
 	text-decoration: none;
 }
 
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.page-numbers {
+	padding: 10px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
 
 /*
 answer
