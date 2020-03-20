@@ -46,6 +46,14 @@ function add_category_custom_fields($deprecated, $column_name, $term_id) {
 }
 add_action('manage_category_custom_column', 'add_category_custom_fields', 10, 3);
 
+/**
+ * 続きを読むリンクの変更
+ */
+function modify_read_more_link() {
+  return '<a class="more-link more-link--primary" href="' . get_permalink() . '">続きを読む</a>';
+}
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
+
 function my_log($message) {
   $log_message = sprintf("%s:%s\n", date_i18n('Y-m-d H:i:s'), $message);
   $file_name = WP_CONTENT_DIR . '/logs/my_output_' . date_i18n('Y-m-d')  . '.log';

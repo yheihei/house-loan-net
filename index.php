@@ -10,10 +10,7 @@
       <h1 class="post-title post-title--primary"><?php the_title();  ?></h1>
       <div class="box_out">
         <div class="box_in">
-          <?php the_excerpt(); ?>
-          <div>
-            <a href="<?php the_permalink(); ?>">続きを見る</a>
-          </div>
+          <?php the_content(); ?>
         </div>
       </div>
     </section>
