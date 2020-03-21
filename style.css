@@ -817,6 +817,10 @@ table.bankTb td strong{
 	display: inline-block;
 }
 
+/* カテゴリーページ */
+.bread li {
+	display: inline;
+}
 
 /*
 answer

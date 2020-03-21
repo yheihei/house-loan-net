@@ -54,6 +54,11 @@ function modify_read_more_link() {
 }
 add_filter( 'the_content_more_link', 'modify_read_more_link' );
 
+/**
+ * カテゴリーページ設定読み込み
+ */
+include_once 'include/categorys/breadcrumbs.php';
+
 function my_log($message) {
   $log_message = sprintf("%s:%s\n", date_i18n('Y-m-d H:i:s'), $message);
   $file_name = WP_CONTENT_DIR . '/logs/my_output_' . date_i18n('Y-m-d')  . '.log';
