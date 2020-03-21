@@ -4,7 +4,7 @@
 <div id="main">
 <div id="content">
   <section class="search-header">
-    <h1>検索キーワード:<?php echo get_search_query(); ?></h1>
+    <p>検索キーワード:<?php echo get_search_query(); ?></p>
   </section>
 <?php if ( have_posts() ) : ?>
   <?php get_template_part( 'templates/archives' ); ?>

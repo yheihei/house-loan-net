@@ -822,6 +822,19 @@ table.bankTb td strong{
 	display: inline;
 }
 
+/* 検索結果ページ */
+.search-header p {
+	font-size: 18px;
+	line-height: 30px;
+	padding-top: 10px;
+	padding-left: 3px;
+	font-weight: normal;
+	padding-bottom: 3px;
+	margin-bottom: 13px;
+	letter-spacing: 1px;
+}
+
+
 /*
 answer
 -------------------------------------------------------------------*/
