@@ -59,6 +59,12 @@ add_filter( 'the_content_more_link', 'modify_read_more_link' );
  */
 include_once 'include/categorys/breadcrumbs.php';
 
+/**
+ * 投稿インポートページ読み込み
+ */
+include_once 'include/import/post.php';
+
+
 function my_log($message) {
   $log_message = sprintf("%s:%s\n", date_i18n('Y-m-d H:i:s'), $message);
   $file_name = WP_CONTENT_DIR . '/logs/my_output_' . date_i18n('Y-m-d')  . '.log';

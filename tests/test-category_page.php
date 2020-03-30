@@ -33,7 +33,6 @@ class カテゴリーページのテスト extends WP_UnitTestCase {
   public function パンくずリストの一番子のカテゴリーを取得できること() {
     $this->go_to( get_category_link( $this->_category_id_child2 ) );
     $categorys = get_categorys_for_breadcrumb();
-    var_dump($categorys);
     $this->assertEquals( $this->_category_id_child2, $categorys[2]->cat_ID );
   }
 
