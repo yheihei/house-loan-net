@@ -1186,6 +1186,19 @@ ul.children li {
 	margin:8px;
 }
 
+#searchform input[type="text"] {
+	height: 22px;
+	width: 70%;
+}
+
+#searchsubmit {
+	background-color: #278F5B;
+	padding: 4px 8px;
+	width: 25%;
+	color: white;
+}
+
+
 .mortgage-icon:before {
   content: '';
   display: inline-block;
