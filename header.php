@@ -21,6 +21,6 @@
 
 <div id="base">
   <div id="header">
-    <h1><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="394" height="43" alt="<?php wp_title( '|', true, 'right' ); ?><?php bloginfo('name'); ?>" /></a></h1>
+    <h1><a href="<?php echo home_url(); ?>"><img class="header_logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="<?php wp_title( '|', true, 'right' ); ?><?php bloginfo('name'); ?>" /></a></h1>
   </div>
   <!--/header end-->

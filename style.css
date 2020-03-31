@@ -57,6 +57,12 @@ a:hover {
 	overflow:hidden;
 }
 
+@media screen and (max-width:900px) {
+	#base {
+		width: 100%;
+	}
+}
+
 strong {
 	color:#ED1C24;
 }
@@ -78,6 +84,13 @@ em {
 	width: 940px;
 	background-repeat: no-repeat;
 }
+
+@media screen and (max-width:900px) {
+	#header {
+		width: 100%;
+	}
+}
+
 #header h1 {
 	font-size: 24px;
 	position: absolute;
@@ -108,6 +121,11 @@ em {
 	font-size: 24px;
 	color: #86b612;
 	padding-left: 5px;
+}
+
+.header_logo {
+	max-width: 100%;
+	width: 100%;
 }
 
 
@@ -189,6 +207,13 @@ em {
 	border-bottom-width: 3px;
 	border-bottom-style: solid;
 	border-bottom-color: #EFEFEF;
+}
+@media screen and (max-width:900px) {
+	#main {
+		float: initial;
+		width: 100%;
+		padding: 0;
+	}
 }
 #content {
 	float: right;
@@ -303,6 +328,13 @@ em {
 	border:none;
 }
 
+#content img {
+	max-width: 100%;
+}
+
+#content table {
+	max-width: 100%;
+}
 
 /*
 bankBox
@@ -674,6 +706,13 @@ table td {
 	margin-left: auto;
 }
 
+@media screen and (max-width:900px) {
+	#content table.tb01 {
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
 #content table.tb01 th {
 	background-color: #063;
 	text-align: center;
@@ -916,6 +955,13 @@ answer
 	margin-left: auto;
 }
 
+@media screen and (max-width:900px) {
+	#side .side_box {
+		width: 100%;
+		padding: 0;
+	}
+}
+
 #side .side_box .side_inbox {
 	border: 1px solid #DDDDDD;
 	width: 232px;
@@ -924,6 +970,12 @@ answer
 	background-color: #FFFFFF;
 	margin-right: auto;
 	margin-left: auto;
+}
+@media screen and (max-width:900px) {
+	#side .side_box .side_inbox {
+		width: 100%;
+		padding: 0;
+	}
 }
 
 @media screen and (max-width:900px) {
@@ -966,6 +1018,13 @@ answer
 	border-left-color: #F0F0F0;
 }
 
+@media screen and (max-width:900px) {
+	#side .side_box .side_inbox li a {
+		width: 97%;
+		background-color: white;
+	}
+}
+
 #side .side_box .side_inbox li a:hover {
 	background-color: #86b612;
 	color: #FFFFFF;
@@ -981,6 +1040,14 @@ answer
 	margin-left: auto;
 	margin-bottom:10px;
 }
+
+@media screen and (max-width:900px) {
+	#side .rankBox01 {
+		width: 96%;
+		margin-left: initial;
+	}
+}
+
 #side .rankBox01 li{
 	margin-bottom:5px;
 	border-bottom:1px #6EB6B5 dotted;
@@ -990,6 +1057,7 @@ answer
 	clear:both;
 }
 
+
 #side .rankBox02{
 	border:#BA7C52 1px solid;
 	width: 220px;
@@ -998,6 +1066,14 @@ answer
 	margin-right: auto;
 	margin-left: auto;
 }
+
+@media screen and (max-width:900px) {
+	#side .rankBox02 {
+		width: 96%;
+		margin-left: initial;
+	}
+}
+
 #side .rankBox02 li{
 	margin-bottom:5px;
 	border-bottom:1px #BA7C52 dotted;
@@ -1080,6 +1156,36 @@ answer
 	font-weight: normal;
 }
 
+.widget-title--secondary {
+	background: linear-gradient(#c6926f, #ba7c52);
+	color: white;
+}
+
+.widget-title--third {
+	background: linear-gradient(#95c9c8, #6fb6b5);
+	color: white;
+}
+
+.widget > ul {
+	background-color: white;
+	padding: 8px 4px;
+}
+
+.widget ul.children {
+	margin: 8px 0;
+	padding-left: 1em;
+}
+
+ul.children li {
+	margin:8px;
+}
+
+
+.widget > ul > li {
+	line-height: 1.5;
+	margin:8px;
+}
+
 .mortgage-icon:before {
   content: '';
   display: inline-block;
@@ -1094,6 +1200,63 @@ answer
   height: 24px;
 	background-image: url(images/icon-qa.png);
 }
+
+.mortgage-icon--en:before {
+  width: 24px;
+  height: 24px;
+	background-image: url(images/icon-en.png);
+}
+
+.mortgage-icon--kanebukuro:before {
+  width: 24px;
+  height: 24px;
+	background-image: url(images/icon-kanebukuro.png);
+}
+
+.mortgage-icon--bank:before {
+  width: 24px;
+  height: 24px;
+	background-image: url(images/icon-bank.png);
+}
+
+.mortgage-icon--house:before {
+  width: 48px;
+  height: 48px;
+	background-image: url(images/icon-house.png);
+}
+
+.widget-icon-block {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: flex-start;;
+	-ms-flex-pack: flex-start;;
+	justify-content: flex-start;;
+}
+.widget-icon-block__icon {
+	margin-right: 8px;
+}
+.widget-icon-block__title {
+	width: 85%;
+	font-size: 12px;
+}
+.mr_icon--house {
+	width: 40px;
+  height: 40px;
+	background-image: url(images/icon-house.png);
+	background-repeat: no-repeat;
+}
+
+.mr_icon--house2 {
+	min-width: 40px;
+  height: 40px;
+	background-image: url(images/icon-house2.png);
+	background-repeat: no-repeat;
+}
+
 
 
 /*
