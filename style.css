@@ -420,7 +420,9 @@ bankBox
 	font-weight: normal;
 }
 #content h3 a {
-	color: #FFFFFF;
+	/* color: #FFFFFF; */
+	color: #660033;
+	margin-left: 0.5em;
 }
 
 #content h3.imgTtl{
@@ -1563,12 +1565,19 @@ ul.point2 li img{
 	background: url(images/qa_btm.png) no-repeat left bottom;
 	padding-bottom:5px;
 	margin:20px 0;
+	background-size: 100%;
 }
-
 #linkBox dd{
 	background:url(images/qa_bg.png) repeat-y;
 	padding:10px;
+	background-size: 100%;
 }
+/* @media screen and (max-width:900px) {
+	#linkBox,
+	#linkBox dd {
+		background-size: 100%;
+	}
+} */
 
 #linkBox dd li{
 	font-size:13px;
