@@ -709,7 +709,8 @@ table td {
 }
 
 @media screen and (max-width:900px) {
-	#content table.tb01 {
+	#content table.tb01,
+	#content table.bankTb {
 		max-width: 100%;
 		width: 100%;
 		table-layout: fixed;
