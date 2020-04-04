@@ -64,6 +64,11 @@ include_once 'include/categorys/breadcrumbs.php';
  */
 include_once 'include/import/post.php';
 
+/**
+ * 記事編集ページカスタマイズ機能読み込み
+ */
+include_once 'include/posts/edit.php';
+
 
 function my_log($message) {
   $log_message = sprintf("%s:%s\n", date_i18n('Y-m-d H:i:s'), $message);

@@ -12,6 +12,14 @@
           <?php the_content();  ?>
         </div>
       </div>
+      <?php
+      // 記事下コンテンツ表示
+      $after_post_content = get_post_meta( get_the_ID(), '_after_post_content', true ); ?>
+      <?php if( $after_post_content ) :?>
+      <div class="after_post">
+        <?= $after_post_content ?>
+      </div>
+      <?php endif; ?>
     </section>
 
   <?php endwhile; // 繰り返し終了 ?>

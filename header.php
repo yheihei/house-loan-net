@@ -12,7 +12,6 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
 <title><?php wp_title( '|', true, 'right' ); ?><?php bloginfo('name'); ?></title>
 <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-<!-- <meta name="description" content="何も考えずに銀行や不動産会社の言うままに住宅ローンを組むと非常に大きな損失が生じます！最も賢く選んで頂くために金利をはじめ、各銀行の住宅ローンについて調査しています。" /> -->
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php wp_head(); ?>
 </head>

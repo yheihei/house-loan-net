@@ -709,9 +709,11 @@ table td {
 }
 
 @media screen and (max-width:900px) {
-	#content table.tb01 {
+	#content table.tb01,
+	#content table.bankTb {
 		max-width: 100%;
 		width: 100%;
+		table-layout: fixed;
 	}
 }
 
@@ -733,6 +735,13 @@ table td {
 	border: 1px solid #686868;
 	font-size: 14px;
 	line-height:1.2;
+}
+
+@media screen and (max-width:900px) {
+	#content table.tb01 th,
+	#content table.tb01 td {
+		font-size: 10px;
+	}
 }
 
 /*----- ランキングテーブル -----*/
@@ -913,6 +922,7 @@ answer
 	}
 	#side .sideBlock{
 		width: 100%;
+		padding: 5px 0;
 	}
 }
 
@@ -1022,8 +1032,12 @@ answer
 
 @media screen and (max-width:900px) {
 	#side .side_box .side_inbox li a {
-		width: 97%;
+		width: 94%;
 		background-color: white;
+	}
+	#side .side_box .side_inbox li {
+    width: 97%;
+		padding-right: 8px;
 	}
 }
 
